@@ -1,48 +1,46 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study 
+> This project focuses on Exploratory Data Analysis on the lending club dataset. The analysis is to identify variables that help to detect if a borrower is likely to default. Digital Lending companies need to analyse the customer's profile before approving the loan. This is also called risk analysis. There are two types risks associated with lending use case:
+
+* If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+
+* If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company  
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The following are the steps involved in
+- This project is an EDA on the lending club case study.
+- Lending club case study focuses on identifying trends or variables that affect the performance of the loan.
+- The dataset contains the complete loan data for all loans issued through the time period 2007 t0 2011.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Borrowers with low income are more likely to be defaulted
+- Loan Amounts with higher interest rates have more chances to be defaulted
+- Borrowers with few years of work experience have more chances to be defaulted
+- Loans with higher tenure/ number of installments have more chances of defaulting
+- Low annual income have higher dti(debt to incom ratio)
+-
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- python 
+- numpy 
+- matplotlib.pyplot 
+- seaborn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@rakshithabs] - feel free to contact me!
 
 
 <!-- Optional -->
